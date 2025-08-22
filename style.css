@@ -1,0 +1,25 @@
+body{
+  margin:0;
+  background:#FFFFFF;
+}
+.horizontal{
+  position:absolute;
+  width:300PX;
+  height:50px;
+  border-radius:30px;
+  background:black;
+  top:50%;
+  left:50%;
+  transform:translateX(-50%) translateY(-50%)
+}
+.vertical{
+  display:flex;
+  justify-content:center;
+  gap:140px;
+}
+.line{
+  width:50PX;
+  height:100vh;
+  background:#F88889;
+}
+ 
